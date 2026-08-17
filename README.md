@@ -1,4 +1,7 @@
-# FOV Calculator — Sun Sensor
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-Square / Cross mask sun sensor FOV calculator.
-Deployed automatically via GitHub Actions + GitHub Pages.
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode><App /></React.StrictMode>
+)
